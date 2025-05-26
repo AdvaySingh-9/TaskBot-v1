@@ -24,7 +24,7 @@ def ask():
     try:
         # use Google's Gemini-2.0-Flash nodle for generating content
         model = genai.GenerativeModel('gemini-2.0-flash')
-        response = model.generate_content(f"You are TaskBot AI created and trained by Advay Singh and Astrumix remember that and just anser me this question- {question}. Don't replay anything on that message just answer me the question.")
+        response = model.generate_content(f"You are TaskBot AI created and trained by Advay Singh, remember that and just anser me this question- {question}. Don't replay anything on that message just answer me the question.")
         answer = response.text
 
         # Log the question and answer for debugging
