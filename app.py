@@ -19,7 +19,7 @@ def ask():
     if not question:
         return jsonify({"error": "Please provide a question."}), 400
 
-    genai.configure(api_key="AIzaSyA5FFcaVCfVmwf7X5C59n4xWc96xWR-A_4")
+    genai.configure(api_key="YOUR_API_KEY")
 
     try:
         # use Google's Gemini-2.0-Flash nodle for generating content
