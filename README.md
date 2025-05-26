@@ -1,5 +1,6 @@
 # TaskBot-v1
-[TaskBot v1](https://huggingface.co/spaces/Advay-Singh/taskbot-v1) is a intelligent AI which can solve some complex questions at high speed.
+# Description 📓
+[TaskBot v1](https://huggingface.co/spaces/Advay-Singh/taskbot-v1) is a intelligent AI which can solve some complex questions at high speed. It is the 2nd version of [TaskBot](https://taskbot-ai-as.netlify.app/#versions)
 
 # Technologies Used
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
